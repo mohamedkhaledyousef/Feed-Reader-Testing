@@ -63,7 +63,7 @@ $(function() {
         
         //to ensure the menu is hidden by default
         it('hidden menu', function () {
-            expect($('.menu-hidden').is(':visible')).toBe(true);
+            expect($('body').hasClass('menu-hidden')).toBe(true);
         });
         
          /* TODO: Write a test that ensures the menu changes
@@ -75,13 +75,14 @@ $(function() {
         //this test for menu display
         it('menu visible on click', function () {
             $('a.menu-icon-link').trigger('click');
-            expect($('.menu-hidden').is(':visible')).toBe(false);
+            expect($('body').hasClass('menu-hidden')).toBe(false);
+
         });
         
         //this test for menu hide
         it('hidden by clicking again ', function () {
             $('a.menu-icon-link').trigger('click');
-            expect($('.menu-hidden').is(':visible')).toBe(true);
+            expect($('body').hasClass('menu-hidden')).toBe(true);
         });
     });
 
