@@ -10,6 +10,11 @@ The important thing in this project is how to use Jasmine to write a number of t
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
 
+# How to run this application
+1. Click "Download ZIP" to download this repository in your computer machine
+2. Unzip the folder
+3. Open index.html file in your browser to see the result of tests
+4. You can see the result of tests at the bottom of the screen [specs or failures]
 
 ## Why this Project?
 
